@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Estoque - Madeireira</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Gestão de Estoque</h1>
+        <form id="estoque-form">
+            <input type="text" id="nome-produto" placeholder="Nome do Produto" required>
+            <input type="number" id="quantidade-produto" placeholder="Quantidade" required>
+            <button type="submit">Adicionar Produto</button>
+        </form>
+        <h2>Estoque Atual</h2>
+        <ul id="estoque-lista"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
